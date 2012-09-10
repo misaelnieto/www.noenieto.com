@@ -1,0 +1,8 @@
+# use glob syntax.
+syntax: glob
+
+*.pyc
+*.pyo
+*~
+*.sublime-workspace
+.codeintel/
