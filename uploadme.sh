@@ -1,2 +1,2 @@
 #!/bin/bash
-../s3vcp/bin/s3vcp noenieto.com -t 4 .
+rsync -Paz . www.noenieto.com:~/webapps/htdocs/ --exclude-from=.rsyncexclude --delete-excluded

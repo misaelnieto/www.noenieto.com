@@ -1,0 +1,5 @@
+.git
+uploadme.sh
+.hgignore
+.gitignore
+.rsyncexclude
