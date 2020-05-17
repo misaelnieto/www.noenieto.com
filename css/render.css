@@ -66,6 +66,9 @@ p {color:#828282;}
     background: #828282;
 }
 
+.navbar .btn-navbar {
+    background: #828282;
+}
 /* footer */
 .footer {
     background:#333333;
@@ -134,11 +137,14 @@ span.rnd {
     height: 1200px;
     padding: 100px 0 0 0;
 }
-#fifth {
+#reach-out {
     background: url(../assets/paloma.png) 100% 0 no-repeat fixed;
     height: 1200px;
     margin: 0 auto;
     padding: 40px 0 0 0;
+    font-size: 14pt;
+    font-weight: 300;
+    line-height: 20pt;
 }
 
 /* objects */
