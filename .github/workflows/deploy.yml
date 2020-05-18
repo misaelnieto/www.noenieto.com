@@ -1,4 +1,4 @@
-name: Jekyll site CI
+name: Deploy my site
 
 on:
   push:
@@ -16,10 +16,9 @@ jobs:
         uses: Pendect/action-rsyncer@v1.1.0
         env:
           DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
-          RSYNC_DEST: ${{secrets.RSYNC_DEST}}
         with:
           src: ${{ GITHUB_WORKSPACE }}
           # Remote server and path. i.e user@server.com:/var/www/server.com/
-          dest: ${{ RSYNC_DEST }}
+          dest: ${{secrets.RSYNC_DEST}}
       - name: Display status from deploy
         run: echo "${{ steps.deploy.outputs.status }}"
