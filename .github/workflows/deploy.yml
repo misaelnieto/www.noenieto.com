@@ -17,7 +17,7 @@ jobs:
         env:
           DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
         with:
-          options: '--exclude-from .rsyncexclude'
+          options: '--exclude-from=.rsyncexclude --delete-excluded'
           src: .
           # Remote server and path. i.e user@server.com:/var/www/server.com/
           dest: ${{secrets.RSYNC_DEST}}

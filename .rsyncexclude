@@ -4,3 +4,5 @@ uploadme.sh
 .gitignore
 .github
 .git
+bower.json
+README.md
