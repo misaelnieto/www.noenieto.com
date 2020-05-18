@@ -17,7 +17,7 @@ jobs:
         env:
           DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
         with:
-          src: ${{GITHUB_WORKSPACE}}
+          src: .
           # Remote server and path. i.e user@server.com:/var/www/server.com/
           dest: ${{secrets.RSYNC_DEST}}
       - name: Display status from deploy
