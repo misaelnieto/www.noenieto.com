@@ -1,5 +1,6 @@
-.git
 uploadme.sh
+.rsyncexclude
 .hgignore
 .gitignore
-.rsyncexclude
+.github
+.git
