@@ -182,3 +182,7 @@ note : this will break bootstrap fluid and responsive.css
     overflow:hidden;
     top: 1379px;
 }
+
+.reach-out-links a {
+    text-decoration: none;
+}
