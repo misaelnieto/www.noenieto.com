@@ -1,0 +1,3 @@
+[submodule "demos/chpt-konvertilo"]
+	path = demos/chpt-konvertilo
+	url = https://github.com/misaelnieto/chpt-konvertilo.git
