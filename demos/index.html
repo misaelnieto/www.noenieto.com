@@ -209,7 +209,7 @@
   }
 
   async function loadDemos() {
-    fetch("demos.json")
+    fetch("/demos/demos.json")
     .then(response => response.json())
     .then(data => createDemoItem(data));
   }
