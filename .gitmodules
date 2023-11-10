@@ -1,3 +1,6 @@
 [submodule "demos/chpt-konvertilo"]
 	path = demos/chpt-konvertilo
 	url = https://github.com/misaelnieto/chpt-konvertilo.git
+[submodule "demos/limpia-emails"]
+	path = demos/limpia-emails
+	url = https://github.com/misaelnieto/limpia-emails.git

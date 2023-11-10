@@ -8,13 +8,13 @@
     },
     {
         "title": "Limpia emails",
-        "url": "limpiaemails/",
+        "url": "/demos/limpiaemails/",
         "github": "https://github.com/misaelnieto/limpiaemails",
         "description": "Extracts all email addresses from a blob of text.",
         "category": "tools"
     },
     {
-        "title": "Webpage to PD",
+        "title": "Webpage to PDF",
         "url": "",
         "github": "https://github.com/marketplace/actions/webpage-to-pdf",
         "description": "This is a github action that loads a website and renders it to PDF.",
@@ -22,7 +22,7 @@
     },
     {
         "title": "LM378 calculator",
-        "url": "",
+        "url": "/demos/lm317-calculator/",
         "github": "https://github.com/misaelnieto/lm317-calculator/",
         "description": "This is a simple calculator for the LM378 adjustable regulator. Written using React.",
         "category": "tools"
