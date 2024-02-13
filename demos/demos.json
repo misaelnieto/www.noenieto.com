@@ -10,7 +10,7 @@
         "title": "Limpia emails",
         "url": "/demos/limpiaemails/",
         "github": "https://github.com/misaelnieto/limpiaemails",
-        "description": "Extracts all email addresses from a blob of text.",
+        "description": "Extracts all email addresses from a blob of text. Written using AngularJS and Bootstrap",
         "category": "tools"
     },
     {
@@ -24,7 +24,7 @@
         "title": "LM378 calculator",
         "url": "/demos/lm317-calculator/",
         "github": "https://github.com/misaelnieto/lm317-calculator/",
-        "description": "This is a simple calculator for the LM378 adjustable regulator. Written using React.",
+        "description": "This is a simple calculator for the LM378 adjustable regulator. Written using React and TailwindCSS.",
         "category": "tools"
     },
     {
